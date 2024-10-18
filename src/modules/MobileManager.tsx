@@ -4,9 +4,9 @@ import { Button } from 'primereact/button';
 import { Toast } from 'primereact/toast';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
-import { MobileService } from '../services/MobileService'; // Asegúrate de la ruta correcta
+import { MobileService } from '../services/MobileService'; 
 import { MobileActionButtons } from '../components/MobileActionButtons';
-import MobileFormDialog from '../components/MobileFormDialog'; // Importa el nuevo componente
+import MobileFormDialog from '../components/MobileFormDialog'; 
 export interface Mobile {
   id: number;
   name: string;

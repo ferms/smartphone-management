@@ -1,4 +1,3 @@
-// src/components/MobileFormDialog.tsx
 import React from 'react';
 import { Dialog } from 'primereact/dialog';
 import { InputText } from 'primereact/inputtext';
