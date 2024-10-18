@@ -1,0 +1,31 @@
+header{
+  background-color: #2d2f31;
+  padding: 0rem 2rem;
+
+}
+.header {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  h3{
+    color:aliceblue;
+  }
+}
+
+button.p-overlaypanel-close.p-link {
+  display: none;
+}
+
+.content{
+  max-width: 1366px;
+  padding: 2rem 1rem;
+  margin: auto;
+  .tableData{
+    background: #efefef;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+}
