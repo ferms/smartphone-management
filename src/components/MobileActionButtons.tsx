@@ -1,3 +1,4 @@
+import React from 'react'; 
 import { Button } from "primereact/button";
 import { Mobile } from "../modules/MobileManager";
 
@@ -7,7 +8,11 @@ interface MobileActionButtonsProps {
   onDelete: (id: number) => void;
 }
 
-export const MobileActionButtons: React.FC<MobileActionButtonsProps> = ({ rowData, onEdit, onDelete }) => {
+export const MobileActionButtons: React.FC<MobileActionButtonsProps> = ({
+  rowData,
+  onEdit,
+  onDelete,
+}) => {
   return (
     <>
       <Button

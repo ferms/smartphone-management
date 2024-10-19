@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Headerx from './components/Headerx';
+import Headerx from './components/Header';
 import MobileManager from './modules/MobileManager';
 import reportWebVitals from './reportWebVitals';
 import 'primereact/resources/themes/lara-light-green/theme.css';  
